@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="onclick.css">
+    <script src="onclick.js"></script>
+</head>
+<body>
+    <header class="titulo">
+        <h1>Dojonary</h1>
+        <div>
+            <input class="but" type="text" placeholder="Ingresa tu busqueda">
+            <!-- <button id="but">S
+                    earch</button> -->
+        </div>
+        <div>
+            <button onclick="cambiar_nombre(this)">Login</button>
+        </div>
+    </header>
+    <div class="i">
+        <div class="columna_uno">
+            <div id="lista">
+                <ul class="u">
+                    <li class="ninja">ninja</li>
+                    <li class="noun">noun</li>
+                    <li class="plural">plural:<span>ninja</span></li>
+                    <li><button id="tton" onclick="aumentar_likes()">13 likes</button></li>
+                </ul>
+                <p class="parr">A practitioner skilled in the<br><a href="#">japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+            <div id="lista_dos">
+                <ul class="u">
+                    <li class="ninja">ninja</li>
+                    <li class="noun">noun</li>
+                    <li class="plural">plural:<span>ninja</span></li>
+                    <li><button id="ton">37 likes</button></li>
+                </ul>
+                <p class="parr">A <a href="#">programmer</a> who breaks<br>down problems with <a href="#">zen</a>-like<br>focus</p>
+            </div>
+        </div>
+        <div class="c">
+            <p id="parrafo_tres">Dojonary is defined by<span id="y">you</span></p>
+            <button class="b" onclick="borrar_boton(this)">Add definition</button>
+        </div>
+    </div>
+</body>
+</html>

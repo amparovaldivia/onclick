@@ -1,0 +1,119 @@
+.titulo{
+    background-color: rgb(199, 192, 192);
+    margin-left: 10%;
+    margin-right:10%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 80%;
+}
+.i{
+    display: flex;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#lista{
+    border-style: solid;
+    border-width: 2px;
+    width:100%;
+    display: flex;
+    margin-top: 20px; 
+}
+.columna_uno{
+    width: 80%;
+}
+h1{
+    font-family: cursive;
+    color: black;
+    margin-left: 20px;
+}
+button{
+    background-color: blue;
+    color: azure;
+    display: flex;
+    margin-top: 30px;
+    box-shadow: 2px 2px black;
+}
+.but{
+    color: rgb(193, 186, 186);
+    padding-left: 30px;
+    margin-top: 30px;
+    border-bottom-style: solid;
+}
+.ninja{
+    font-family: cursive;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.noun{
+    font-family:comic;
+    font-style: italic;
+    font-size: medium;
+    color: black;
+}
+.plural{
+    font-family: courier;
+    font-size: small;
+    color: black;
+}
+span{
+    color: black;
+    font-size: small;
+    font-style: italic;
+    font-family: monospace;
+}
+#tton{
+    background-color: gold;
+    box-shadow: 2px 2px black;
+    border-style: solid;
+    border-width: 2px;
+}
+.parr{
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: x-large;
+}
+.u{
+    list-style: none;
+}
+#lista_dos{
+    border-style: solid;
+    border-width: 2px;
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+}
+#ton{
+    background-color: gold;
+    box-shadow: 2px 2px black;
+    border-style: solid;
+    border-width: 2px;
+}
+.c{
+    border-style: solid;
+    border-width: 2px;
+    width: 20%;
+    height:134px ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.b{
+    background-color:green;
+    color: black;
+    box-shadow: 2px 2px black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#parrafo_tres{
+    font-size:medium;
+}
+#y{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: x-large;
+}
